@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/mi_programa.dir/hola_mundo.cpp.o -o mi_programa 

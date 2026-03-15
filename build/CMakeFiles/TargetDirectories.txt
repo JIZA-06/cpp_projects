@@ -1,0 +1,3 @@
+/home/isaaczuniga2006/cpp_projects/build/CMakeFiles/mi_programa.dir
+/home/isaaczuniga2006/cpp_projects/build/CMakeFiles/edit_cache.dir
+/home/isaaczuniga2006/cpp_projects/build/CMakeFiles/rebuild_cache.dir

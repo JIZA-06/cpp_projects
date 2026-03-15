@@ -1,8 +1,7 @@
 #include <iostream>
 
-int main (){
+using namespace std; 
 
-    std:: cout<<"Hola mundo!"<<std::endl;
-
-    return 0;
+int main() {
+    cout << "Hola Mundo" << endl;
 }
