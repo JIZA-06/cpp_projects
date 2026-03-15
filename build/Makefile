@@ -129,6 +129,43 @@ mi_programa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mi_programa.dir/build.make CMakeFiles/mi_programa.dir/build
 .PHONY : mi_programa/fast
 
+#=============================================================================
+# Target rules for targets named combate
+
+# Build rule for target.
+combate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 combate
+.PHONY : combate
+
+# fast build rule for target.
+combate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combate.dir/build.make CMakeFiles/combate.dir/build
+.PHONY : combate/fast
+
+combate.o: combate.cpp.o
+.PHONY : combate.o
+
+# target to build an object file
+combate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combate.dir/build.make CMakeFiles/combate.dir/combate.cpp.o
+.PHONY : combate.cpp.o
+
+combate.i: combate.cpp.i
+.PHONY : combate.i
+
+# target to preprocess a source file
+combate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combate.dir/build.make CMakeFiles/combate.dir/combate.cpp.i
+.PHONY : combate.cpp.i
+
+combate.s: combate.cpp.s
+.PHONY : combate.s
+
+# target to generate assembly for a file
+combate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/combate.dir/build.make CMakeFiles/combate.dir/combate.cpp.s
+.PHONY : combate.cpp.s
+
 hola_mundo.o: hola_mundo.cpp.o
 .PHONY : hola_mundo.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... combate"
 	@echo "... mi_programa"
+	@echo "... combate.o"
+	@echo "... combate.i"
+	@echo "... combate.s"
 	@echo "... hola_mundo.o"
 	@echo "... hola_mundo.i"
 	@echo "... hola_mundo.s"

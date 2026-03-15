@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/combate.dir/combate.cpp.o -o combate 

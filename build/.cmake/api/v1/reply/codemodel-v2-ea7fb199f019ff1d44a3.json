@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,12 +31,20 @@
 					"name" : "HolaMundoProyecto",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "combate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-combate-Debug-4b33874273df21a2e19d.json",
+					"name" : "combate",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "mi_programa::@6890427a1f51a3e7e1df",
