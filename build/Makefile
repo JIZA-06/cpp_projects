@@ -129,6 +129,19 @@ mi_programa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mi_programa.dir/build.make CMakeFiles/mi_programa.dir/build
 .PHONY : mi_programa/fast
 
+#=============================================================================
+# Target rules for targets named suma_programa
+
+# Build rule for target.
+suma_programa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 suma_programa
+.PHONY : suma_programa
+
+# fast build rule for target.
+suma_programa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/build
+.PHONY : suma_programa/fast
+
 hola_mundo.o: hola_mundo.cpp.o
 .PHONY : hola_mundo.o
 
@@ -153,6 +166,30 @@ hola_mundo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mi_programa.dir/build.make CMakeFiles/mi_programa.dir/hola_mundo.cpp.s
 .PHONY : hola_mundo.cpp.s
 
+suma.o: suma.cpp.o
+.PHONY : suma.o
+
+# target to build an object file
+suma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/suma.cpp.o
+.PHONY : suma.cpp.o
+
+suma.i: suma.cpp.i
+.PHONY : suma.i
+
+# target to preprocess a source file
+suma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/suma.cpp.i
+.PHONY : suma.cpp.i
+
+suma.s: suma.cpp.s
+.PHONY : suma.s
+
+# target to generate assembly for a file
+suma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/suma.cpp.s
+.PHONY : suma.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mi_programa"
+	@echo "... suma_programa"
 	@echo "... hola_mundo.o"
 	@echo "... hola_mundo.i"
 	@echo "... hola_mundo.s"
+	@echo "... suma.o"
+	@echo "... suma.i"
+	@echo "... suma.s"
 .PHONY : help
 
 

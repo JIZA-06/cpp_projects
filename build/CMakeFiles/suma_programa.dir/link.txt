@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/suma_programa.dir/suma.cpp.o -o suma_programa 

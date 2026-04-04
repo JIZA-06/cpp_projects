@@ -1,3 +1,4 @@
 /home/agente47/Documentos/cpp_projects/build/CMakeFiles/mi_programa.dir
+/home/agente47/Documentos/cpp_projects/build/CMakeFiles/suma_programa.dir
 /home/agente47/Documentos/cpp_projects/build/CMakeFiles/edit_cache.dir
 /home/agente47/Documentos/cpp_projects/build/CMakeFiles/rebuild_cache.dir
