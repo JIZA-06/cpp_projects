@@ -1,12 +1,8 @@
 [
 {
-  "directory": "/home/isaaczuniga2006/cpp_projects/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/mi_programa.dir/hola_mundo.cpp.o -c /home/isaaczuniga2006/cpp_projects/hola_mundo.cpp",
-  "file": "/home/isaaczuniga2006/cpp_projects/hola_mundo.cpp"
-},
-{
-  "directory": "/home/isaaczuniga2006/cpp_projects/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/combate.dir/combate.cpp.o -c /home/isaaczuniga2006/cpp_projects/combate.cpp",
-  "file": "/home/isaaczuniga2006/cpp_projects/combate.cpp"
+  "directory": "/home/agente47/Documentos/cpp_projects/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/mi_programa.dir/hola_mundo.cpp.o -c /home/agente47/Documentos/cpp_projects/hola_mundo.cpp",
+  "file": "/home/agente47/Documentos/cpp_projects/hola_mundo.cpp",
+  "output": "CMakeFiles/mi_programa.dir/hola_mundo.cpp.o"
 }
 ]
