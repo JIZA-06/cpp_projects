@@ -46,4 +46,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/mi_programa.dir/DependInfo.cmake"
   "CMakeFiles/suma_programa.dir/DependInfo.cmake"
+  "CMakeFiles/area_programa.dir/DependInfo.cmake"
   )

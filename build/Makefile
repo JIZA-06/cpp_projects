@@ -142,6 +142,43 @@ suma_programa/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/build
 .PHONY : suma_programa/fast
 
+#=============================================================================
+# Target rules for targets named area_programa
+
+# Build rule for target.
+area_programa: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 area_programa
+.PHONY : area_programa
+
+# fast build rule for target.
+area_programa/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/build
+.PHONY : area_programa/fast
+
+area_cuadrado.o: area_cuadrado.cpp.o
+.PHONY : area_cuadrado.o
+
+# target to build an object file
+area_cuadrado.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/area_cuadrado.cpp.o
+.PHONY : area_cuadrado.cpp.o
+
+area_cuadrado.i: area_cuadrado.cpp.i
+.PHONY : area_cuadrado.i
+
+# target to preprocess a source file
+area_cuadrado.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/area_cuadrado.cpp.i
+.PHONY : area_cuadrado.cpp.i
+
+area_cuadrado.s: area_cuadrado.cpp.s
+.PHONY : area_cuadrado.s
+
+# target to generate assembly for a file
+area_cuadrado.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/area_cuadrado.cpp.s
+.PHONY : area_cuadrado.cpp.s
+
 hola_mundo.o: hola_mundo.cpp.o
 .PHONY : hola_mundo.o
 
@@ -198,8 +235,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... area_programa"
 	@echo "... mi_programa"
 	@echo "... suma_programa"
+	@echo "... area_cuadrado.o"
+	@echo "... area_cuadrado.i"
+	@echo "... area_cuadrado.s"
 	@echo "... hola_mundo.o"
 	@echo "... hola_mundo.i"
 	@echo "... hola_mundo.s"

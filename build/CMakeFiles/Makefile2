@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/agente47/Documentos/cpp_projects/build
 # The main recursive "all" target.
 all: CMakeFiles/mi_programa.dir/all
 all: CMakeFiles/suma_programa.dir/all
+all: CMakeFiles/area_programa.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/mi_programa.dir/clean
 clean: CMakeFiles/suma_programa.dir/clean
+clean: CMakeFiles/area_programa.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,7 +85,7 @@ clean: CMakeFiles/suma_programa.dir/clean
 CMakeFiles/mi_programa.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mi_programa.dir/build.make CMakeFiles/mi_programa.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mi_programa.dir/build.make CMakeFiles/mi_programa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agente47/Documentos/cpp_projects/build/CMakeFiles --progress-num=1,2 "Built target mi_programa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agente47/Documentos/cpp_projects/build/CMakeFiles --progress-num=3,4 "Built target mi_programa"
 .PHONY : CMakeFiles/mi_programa.dir/all
 
 # Build rule for subdir invocation for target.
@@ -109,7 +111,7 @@ CMakeFiles/mi_programa.dir/clean:
 CMakeFiles/suma_programa.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agente47/Documentos/cpp_projects/build/CMakeFiles --progress-num=3,4 "Built target suma_programa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agente47/Documentos/cpp_projects/build/CMakeFiles --progress-num=5,6 "Built target suma_programa"
 .PHONY : CMakeFiles/suma_programa.dir/all
 
 # Build rule for subdir invocation for target.
@@ -127,6 +129,32 @@ suma_programa: CMakeFiles/suma_programa.dir/rule
 CMakeFiles/suma_programa.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/suma_programa.dir/build.make CMakeFiles/suma_programa.dir/clean
 .PHONY : CMakeFiles/suma_programa.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/area_programa.dir
+
+# All Build rule for target.
+CMakeFiles/area_programa.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/agente47/Documentos/cpp_projects/build/CMakeFiles --progress-num=1,2 "Built target area_programa"
+.PHONY : CMakeFiles/area_programa.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/area_programa.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agente47/Documentos/cpp_projects/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/area_programa.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agente47/Documentos/cpp_projects/build/CMakeFiles 0
+.PHONY : CMakeFiles/area_programa.dir/rule
+
+# Convenience name for target.
+area_programa: CMakeFiles/area_programa.dir/rule
+.PHONY : area_programa
+
+# clean rule for target.
+CMakeFiles/area_programa.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/area_programa.dir/build.make CMakeFiles/area_programa.dir/clean
+.PHONY : CMakeFiles/area_programa.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
