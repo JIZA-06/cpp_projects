@@ -3,8 +3,11 @@ cmake_minimum_required(VERSION 3.10)
 # Nombre del proyecto
 project(HolaMundoProyecto)
 
-# Crea el ejecutable (Nombre del programa + archivo fuente)
+# programa de hola mundo 
 add_executable(mi_programa hola_mundo.cpp)
 
-# Tu programa de suma
+# programa de suma
 add_executable(suma_programa suma.cpp)
+
+# Programa de area de cuadrado
+add_executable(area_programa area_cuadrado.cpp)

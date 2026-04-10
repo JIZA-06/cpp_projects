@@ -5,3 +5,4 @@
 
 * **hola_mundo.cpp:** Mi primer programa.
 * **suma.cpp:** Una calculadora básica de números enteros con un estilo profesional.
+* **area_cuadrada.cpp:** programa para calcular el area de un cuadrado.
